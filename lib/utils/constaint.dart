@@ -1,0 +1,1 @@
+const maxWidth = 600;
