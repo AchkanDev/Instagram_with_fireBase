@@ -9,9 +9,10 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
-      body: const ResponsiveLayout(
-          mobileScreen: MobileScreen(), webScreen: WebScreen()),
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+      ),
+      body: Center(child: Text("Home !")),
     );
   }
 }
