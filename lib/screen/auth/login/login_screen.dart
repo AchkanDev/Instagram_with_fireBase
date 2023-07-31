@@ -48,7 +48,7 @@ class _LoginScreenState extends State<LoginScreen> {
         child: SafeArea(
             child: SingleChildScrollView(
           child: Container(
-            height: MediaQuery.of(context).size.height - 30,
+            height: MediaQuery.of(context).size.height - 90,
             padding: const EdgeInsets.symmetric(horizontal: 32),
             width: double.infinity,
             child: Column(

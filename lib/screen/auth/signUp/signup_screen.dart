@@ -85,7 +85,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         child: SafeArea(
             child: SingleChildScrollView(
           child: Container(
-            height: 860,
+            height: MediaQuery.of(context).size.height - 90,
             padding: const EdgeInsets.symmetric(horizontal: 32),
             width: double.infinity,
             child: Column(
